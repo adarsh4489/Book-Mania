@@ -1,0 +1,25 @@
+.navbar{
+    margin: 1rem;
+    border-radius: 1em;
+    background: #000;
+    color: white;
+}
+.navbar-brand{
+    color: whitesmoke;
+}
+.nav-link{
+    color: antiquewhite;
+}
+.nav-item{
+/* background: rgb(197, 107, 107); */
+color: rgb(146, 217, 217);
+padding:  0 1em 0 1em;
+text-align: center;
+}
+.nav-item:hover{
+    background: white;
+    color: black;
+}
+.crousel-item{
+    height: 2%;
+}
