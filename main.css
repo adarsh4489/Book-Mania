@@ -1,12 +1,18 @@
 .navbar{
     margin: 1rem;
-    border-radius: 1em;
+    border-radius: 0.5em;
     background: #000;
     color: white;
 }
 .navbar-brand{
     color: whitesmoke;
+    
 }
+.brand-logo{
+    height: 3em;
+    width: 5em;
+}
+
 .nav-link{
     color: antiquewhite;
 }
@@ -21,5 +27,12 @@ text-align: center;
     color: black;
 }
 .crousel-item{
-    height: 2%;
+    margin-top: 1em;
+}
+.d-block{
+    border-radius: 00.5em;
+    height: 32em;
+}
+.carousel-caption{
+    color: #000;
 }
