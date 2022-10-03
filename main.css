@@ -52,3 +52,13 @@ cursor:pointer;
     height: 10em;
     width: 15em;
 }
+.card-style{
+    display: inline-block;
+    text-align: center;
+}.top-title{
+    margin: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titlebtn{
+    margin-left:90% ;
+}
