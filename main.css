@@ -44,7 +44,7 @@ display: inline-block;
 margin: 2em 2em 2em 3em;
 }
 .card:hover{
-/* zoom: 10fr; */
+
 background: rgb(106, 95, 95);
 cursor:pointer;
 }
@@ -54,11 +54,23 @@ cursor:pointer;
 }
 .card-style{
     display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 1em;
     text-align: center;
-}.top-title{
+    background-color:rgb(230, 232, 169) ;
+    
+}
+.card-style :hover{
+    cursor:pointer;
+}
+.top-title{
     margin: 2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .titlebtn{
     margin-left:90% ;
+    
+}
+.best{
+    width: 10em;
 }
