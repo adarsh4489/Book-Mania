@@ -6,7 +6,6 @@
 }
 .navbar-brand{
     color: whitesmoke;
-    
 }
 .brand-logo{
     height: 2em;
@@ -35,42 +34,71 @@ text-align: center;
 .carousel-caption{
     color: #000;
 }
-.container-fluid{
-    margin: 1%;
+.container{
+    display: inline-block;
+    /* margin: 1%; */
 }
 .card{
-    align-items: center;
+    text-align: center;
 display: inline-block;
 margin: 2em 2em 2em 3em;
 }
 .card:hover{
-
-background: rgb(106, 95, 95);
+background: rgb(161, 196, 112);
 cursor:pointer;
 }
 .card-img-top{
+    margin-top: 1em;
     height: 10em;
-    width: 15em;
+    width: 14em;
+    text-align: center;
 }
 .card-style{
     display: inline-block;
     margin-left: 1em;
     margin-bottom: 1em;
+    padding-bottom: 1rem;
     text-align: center;
     background-color:rgb(230, 232, 169) ;
-    
+    border-radius: 1em;
+}
+.card.card-body{
+margin: auto;
 }
 .card-style :hover{
-    cursor:pointer;
+   color: purple;
 }
 .top-title{
-    margin: 2em;
+    margin: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .titlebtn{
-    margin-left:90% ;
-    
+    margin-left:90% ;  
 }
 .best{
+    border-radius: 1em;
     width: 10em;
+}
+.collapse{
+   
+}
+.other-books{
+display: block;
+}
+.links{
+    margin: 2em;
+    display: inline-block;
+}
+.links-img{
+    margin-top: 0em;
+    padding-top: 0em;
+    display: inline-block;
+    margin-left:12em;
+    /* justify-content: right; */
+    margin-bottom: 1em;
+}
+#image-link{
+    height: 30em;
+    width: fit-content;
+    display: inline-block ;
 }
