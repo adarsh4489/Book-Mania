@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(218deg,rgba(19, 1, 25, 0.2),rgba(95, 166, 220, 0.467));
+}
+.col
+{
+    border: 0.5em;
+    border-radius: 1%;
+    border-color:solid black;
+}
+.row{
+    justify-content: left;
+    border: solid black;
+    border-width: 1px;
+}
+.image-column{
+    margin-left: 20em;
+    text-align: center;
+    justify-content: center;
+    background: rgb(229, 242, 230);
+    
+}
