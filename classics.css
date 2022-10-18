@@ -1,21 +1,36 @@
 body{
-    background: linear-gradient(218deg,rgba(19, 1, 25, 0.2),rgba(95, 166, 220, 0.467));
+    background: linear-gradient(218deg,rgba(80, 20, 98, 0.2),rgba(137, 79, 155, 0.467));
 }
 .col
 {
     border: 0.5em;
     border-radius: 1%;
     border-color:solid black;
+    /* margin: 2em; */
+    
 }
 .row{
-    justify-content: left;
     border: solid black;
     border-width: 1px;
+    border-radius: 2em;
 }
 .image-column{
-    margin-left: 20em;
+    margin-left: 10em;
     text-align: center;
-    justify-content: center;
-    background: rgb(229, 242, 230);
+    justify-content: center; 
     
+}
+.image-column:hover{
+    transform: scale(1.2);
+}
+.buynow{
+    margin-left: 5rem; 
+    border-radius: 1em;
+    background-color: rgb(62, 8, 67);
+    color: white;
+    border-color:rgb(165, 117, 211);
+}
+.buynow:hover{
+    background-color: rgb(145, 108, 179);
+    color: black;
 }
