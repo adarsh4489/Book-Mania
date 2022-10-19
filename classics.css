@@ -5,9 +5,7 @@ body{
 {
     border: 0.5em;
     border-radius: 1%;
-    border-color:solid black;
-    /* margin: 2em; */
-    
+    border-color:solid black;    
 }
 .row{
     border: solid black;

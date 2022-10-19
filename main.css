@@ -33,7 +33,7 @@ text-align: center;
     height: 32em;
 }
 .carousel-caption{
-    color: #000;
+    color: rgb(31, 10, 10);
 }
 .card{
     text-align: center;
@@ -67,6 +67,7 @@ transform: scale(1.1);
     text-align: center;
     background-color:rgb(230, 232, 169) ;
     border-radius: 1em;
+    
 }
 .card.card-body{
 margin: auto;
