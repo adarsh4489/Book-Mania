@@ -1,3 +1,6 @@
+body{
+   
+}
 .navbar{
     margin: 0.5rem;
     border-radius: 0.5em;
@@ -48,7 +51,7 @@ margin: 2em 2em 2em 3em;
    font-family: sans-serif;
 }
 .card:hover{
-background: rgb(161, 196, 112);
+background: rgb(133, 150, 109);
 cursor:pointer;
 transform: scale(1.1);
 }
@@ -65,7 +68,7 @@ transform: scale(1.1);
     margin-bottom: 1em;
     padding-bottom: 1rem;
     text-align: center;
-    background-color:rgb(230, 232, 169) ;
+    background-color:rgb(255, 255, 255) ;
     border-radius: 1em;
     
 }

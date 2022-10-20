@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(218deg,rgba(80, 20, 98, 0.2),rgba(137, 79, 155, 0.467));
 }
+
 .col
 {
     border: 0.5em;
@@ -12,23 +13,29 @@ body{
     border-width: 1px;
     border-radius: 2em;
 }
+.discription-text{
+    font-family:cursive,fantasy,serif;
+    font-size: large;
+}
 .image-column{
     margin-left: 10em;
     text-align: center;
-    justify-content: center; 
-    
+    margin-top: 1em;
 }
 .image-column:hover{
     transform: scale(1.2);
+    opacity: .9;
 }
 .buynow{
-    margin-left: 5rem; 
+    margin-left: 2rem; 
     border-radius: 1em;
     background-color: rgb(62, 8, 67);
     color: white;
     border-color:rgb(165, 117, 211);
+    font-weight: 600;
 }
 .buynow:hover{
     background-color: rgb(145, 108, 179);
     color: black;
+    font-weight: 700;
 }
