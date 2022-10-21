@@ -1,7 +1,9 @@
 body{
-    background: linear-gradient(218deg,rgba(80, 20, 98, 0.2),rgba(137, 79, 155, 0.467));
+    background: linear-gradient(128deg,rgba(42, 7, 53, 0.467),rgba(214, 205, 216, 0.2));
 }
-
+.heading{
+    text-decoration: underline ;
+}
 .col
 {
     border: 0.5em;
@@ -12,19 +14,29 @@ body{
     border: solid black;
     border-width: 1px;
     border-radius: 2em;
+    background: rgb(231, 227, 232);
 }
 .discription-text{
     font-family:cursive,fantasy,serif;
     font-size: large;
 }
-.image-column{
+.image-column-right{
     margin-left: 10em;
     text-align: center;
     margin-top: 1em;
 }
-.image-column:hover{
+.image-column-left{
+    margin-left: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+.image-column-left:hover{
     transform: scale(1.2);
-    opacity: .9;
+    opacity: 0.8;
+}
+.image-column-right:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
 }
 .buynow{
     margin-left: 2rem; 
@@ -38,4 +50,17 @@ body{
     background-color: rgb(145, 108, 179);
     color: black;
     font-weight: 700;
+}
+
+
+
+
+
+.footer{
+   background-color: rgb(47, 17, 75);
+    color:aliceblue
+}
+.heading-footer{
+text-align: center;
+
 }
