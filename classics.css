@@ -19,6 +19,7 @@ body{
 .discription-text{
     font-family:cursive,fantasy,serif;
     font-size: large;
+    transition: all 0.3s ease;
 }
 .image-column-right{
     margin-left: 10em;
@@ -33,10 +34,12 @@ body{
 .image-column-left:hover{
     transform: scale(1.2);
     opacity: 0.8;
+    transition: all 1.5s ease;
 }
 .image-column-right:hover{
     transform: scale(1.2);
     opacity: 0.8;
+    transition: all 1.5s ease;
 }
 .buynow{
     margin-left: 2rem; 
