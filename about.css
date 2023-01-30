@@ -1,0 +1,40 @@
+body{
+   
+}
+.navbar{
+    margin: 0.5rem;
+    border-radius: 0.5em;
+    background: rgb(50, 6, 53);
+    color: rgb(255, 255, 255);
+}
+.navbar-brand{
+    color: whitesmoke;
+}
+.brand-logo{
+    height: 2em;
+    width: 4em;
+}
+.nav-link{
+    color: antiquewhite;
+}
+.nav-item{
+color: rgb(146, 217, 217);
+padding:  0 1em 0 1em;
+text-align: center;
+}
+.nav-item:hover{
+    border-radius: 2rem;
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.text-heading{
+    border-radius: 50px;
+}
+.heading{
+    background: rgb(229, 157, 157);
+    padding: 30px;
+    text-align: center;
+    font-family:  'Courier New', Courier, monospace;
+}
